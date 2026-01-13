@@ -47,7 +47,7 @@ python -m uvicorn main:app --host 0.0.0.0 --port 3001 --reload
 
 ### Method 2: With Environment Variable (Alternative)
 ```bash
-export NVIDIA_API_KEY="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"
+export NVIDIA_API_KEY=" "
 cd /home/z/my-project/mini-services/video-clipper-service
 python -m uvicorn main:app --host 0.0.0.0 --port 3001 --reload
 ```
