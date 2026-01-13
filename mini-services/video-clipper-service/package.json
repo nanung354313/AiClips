@@ -1,0 +1,19 @@
+{
+  "name": "video-clipper-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python -m uvicorn main:app --host 0.0.0.0 --port 3001 --reload",
+    "start": "python -m uvicorn main:app --host 0.0.0.0 --port 3001"
+  },
+  "dependencies": {
+    "fastapi": "^0.115.0",
+    "uvicorn": "^0.32.0",
+    "pydantic": "^2.10.0",
+    "yt-dlp": "^2024.12.6",
+    "openai": "^1.58.0",
+    "ffmpeg-python": "^0.2.0",
+    "python-multipart": "^0.0.20"
+  }
+}
